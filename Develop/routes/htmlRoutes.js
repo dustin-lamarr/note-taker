@@ -1,7 +1,7 @@
 //html routes
 const fs = require("fs");
-
-var path = require("path");
+const express = require("express");
+const path = require("path");
 
 module.exports = function(app) {
     app.get("/notes", function(req, res) {
